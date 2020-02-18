@@ -1,0 +1,43 @@
+{
+  "_from": "express-gateway-plugin-encrypted-path",
+  "_id": "express-gateway-plugin-encrypted-path@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-SCQAz2uz7FahX31ERsLkMyFHyYY=",
+  "_location": "/express-gateway-plugin-encrypted-path",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "express-gateway-plugin-encrypted-path",
+    "name": "express-gateway-plugin-encrypted-path",
+    "escapedName": "express-gateway-plugin-encrypted-path",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/express-gateway-plugin-encrypted-path/-/express-gateway-plugin-encrypted-path-1.0.0.tgz",
+  "_shasum": "482400cf6bb3ec56a15f7d4446c2e4332147c986",
+  "_spec": "express-gateway-plugin-encrypted-path",
+  "_where": "/home/skaczor/src/dropstream/api_gateway/dropstream",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Plugin Encrypted-Path for Express Gateway",
+  "license": "Apache-2.0",
+  "main": "manifest.js",
+  "name": "express-gateway-plugin-encrypted-path",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "path-to-regexp": "^3.0.0",
+    "egoroof-blowfish": "^2.2.1",
+    "hex-to-array-buffer": "^1.1.0",
+    "array-buffer-to-hex": "^1.0.0"
+  }
+}
