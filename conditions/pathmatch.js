@@ -1,7 +1,7 @@
 const pathToRegExp = require('path-to-regexp');
 
 module.exports = {
-  name: 'pathmatch',
+  name: 'cryptpathmatch',
   handler: function (req, conditionConfig) {
     const keys = [];
     const regExpFromPath = pathToRegExp(conditionConfig.match, keys);

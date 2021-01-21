@@ -11,7 +11,7 @@ To use, add plugin in system.config.yml and add the following in gateway.config.
 ```
       - encrypted-path:
           - condition:
-              name: pathmatch
+              name: cryptpathmatch
               match: /foo/:encrypted
             action:
               rewrite: /bar/:decrypted

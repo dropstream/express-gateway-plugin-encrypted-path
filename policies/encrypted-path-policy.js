@@ -9,8 +9,8 @@ module.exports = {
     const compiledExp = pathToRegExp.compile(actionParams.rewrite);
     const bf = new Blowfish(actionParams.key, Blowfish.MODE.ECB, Blowfish.PADDING.PKCS5)
     return (req, res, next) => {
-      let encrypted = hexToArrayBuffer(req.egContext.encryptedPathCondition.encrypted);
       let params = req.egContext.encryptedPathCondition;
+      let encrypted = hexToArrayBuffer(params.encrypted);
       params.decrypted = bf.decode(encrypted, Blowfish.TYPE.STRING);
       // eslint-disable-next-line no-console
       console.log('encrypted-path policy params:', params);

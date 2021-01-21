@@ -23,7 +23,7 @@
   "_shasum": "482400cf6bb3ec56a15f7d4446c2e4332147c986",
   "_spec": "express-gateway-plugin-encrypted-path",
   "_where": "/home/skaczor/src/dropstream/api_gateway/dropstream",
-  "author": "",
+  "author": "Simon Kaczor",
   "bundleDependencies": false,
   "deprecated": false,
   "description": "Plugin Encrypted-Path for Express Gateway",
@@ -33,7 +33,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dependencies": {
     "path-to-regexp": "^3.0.0",
     "egoroof-blowfish": "^2.2.1",
