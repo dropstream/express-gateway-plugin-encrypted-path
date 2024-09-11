@@ -35,7 +35,7 @@
   },
   "version": "1.1.0",
   "dependencies": {
-    "path-to-regexp": "^3.0.0",
+    "path-to-regexp": "^3.3.0",
     "egoroof-blowfish": "^2.2.1",
     "hex-to-array-buffer": "^1.1.0",
     "array-buffer-to-hex": "^1.0.0"
